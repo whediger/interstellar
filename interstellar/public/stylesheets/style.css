@@ -1,8 +1,67 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('../images/glaxy_bg.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
 }
 
 a {
-  color: #00B7FF;
+  color: #E81B2A;
+  text-decoration: none;
+  font-size:1.5em;
+
+}
+
+.image {
+  height:25vh;
+  width:30vw;
+  border-radius:50px;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  max-width: 30vw;
+  max-height:35vh;
+  margin:0.5vw;
+}
+
+nav {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:black;
+  border-radius:42%;
+}
+
+.nav-div {
+  width:33%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.nav-end {
+  width:33%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+nav h1 {
+  color:white;
+  font-size:2em;
+}
+
+main {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
 }
